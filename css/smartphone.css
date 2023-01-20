@@ -1,0 +1,44 @@
+#twitterfeed {
+    border-top: solid 1px red;
+    border-left: 0px;
+    clear: both;
+    margin-left: 0px;
+}
+
+a~b+a>b a,
+li {
+    clear: both;
+    display: none;
+    width: 150px;
+    height: 18px;
+}
+
+nav li:hover>ul {
+    display: block;
+    padding-left: 150px;
+    margin-top: -42px;
+}
+
+#menub>div {
+    width: 37px;
+    height: 7px;
+    background-color: black;
+    margin: 6px 0;
+    display: block;
+}
+
+nav:hover #menub {
+    display: none;
+}
+
+nav>ul:hover li {
+    display: block;
+}
+
+attention {
+    color: red;
+    display: inline-block;
+    background-color: pink;
+    width: 8cm;
+    height: 100px;
+}
