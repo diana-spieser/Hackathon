@@ -6,8 +6,34 @@ html, body {
   height: 100%;
   width: 100%;
 }
+.navbar-ai {
+  padding-right: 24px;
+  height: 80px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
 
+.navlinks {
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+  font-size: 18px;
+  font-weight: 100;
+}
 
+.navlinks a {
+  color: white;
+  text-decoration: none;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
 #textarea_title {
     width: 90%;
     resize: none;
