@@ -1,0 +1,205 @@
+body {
+  background-color: white;
+}
+
+.show-container {
+  background-color: white;
+}
+
+.show-bloc {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-top: 15px ;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  border-radius: 10px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+  position: relative;
+}
+.show-h2 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.show-img {
+margin-left: 40px;
+}
+
+.show-infos {
+  color: #29202d;
+  text-align: left;
+  padding-left: 80px;
+  padding: 50px;
+}
+
+.btn-ghost {
+  color: #4A4A4A;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.btn-ghost:hover {
+  opacity: 1;
+  color: #fdd9d9;
+  border: 1px solid #fdd9d9;
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.form {
+  background-color: transparent !important;
+}
+
+.modal-title {
+  text-align: center !important;
+  color: #83cdc7;
+}
+
+.modal-footer {
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+.resa-btn {
+  align-items: center;
+  border-radius: 50px;
+  color: #29202d;
+  padding: 8px 24px;
+  background: #fdd9d9;
+  margin-left: 100px;
+  align-items: center;
+  border-color: transparent !important;
+}
+
+.resa-btn:hover {
+  background: #cef3f0;
+  color: #29202d;
+}
+
+.resa-dream-name {
+  margin-left: 280px;
+  color: #CC96E1;
+}
+
+.resa-price {
+  display: flex;
+  justify-content: space-around;
+  color: #CC96E1;
+  font-size: larger;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.details-price-resa {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+  font-size: large;
+  align-items: center;
+}
+
+.show-btn-popup {
+  border-radius: 50px;
+  color: #29202d;
+  padding: 8px 24px;
+  background: #fdd9d9;
+  border-color: transparent !important;
+}
+
+.show-btn-popup:hover {
+  background: #cef3f0;
+  color: #29202d;
+}
+
+.show-price {
+  font-weight: bold;
+  font-size: large;
+}
+
+/* box partage */
+.box {
+  display: flex;
+}
+
+#checkbox {
+  width: 65px;
+  height: 65px;
+  cursor: pointer;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  background: white;
+  position: relative;
+}
+#checkbox:hover {
+  background: rgba(255, 255, 255, .7);
+}
+
+#checkbox::before {
+  content: '\f1e0';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'font awesome 5 free';
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: rgb(41, 41, 41);
+  transition: all 1.5s;
+}
+#checkbox:checked::before {
+  content: '\f00d';
+}
+#checkbox:checked ~ .menu {
+  width: 264px; /* 4 * 65 + 4 * 1 pour la bordure */
+}
+
+.menu {
+  width: 0;
+  display: flex;
+  overflow: hidden;
+  transition: all .5s;
+}
+.menu .menuItems {
+  width: 65px;
+  height: 65px;
+  background: white;
+  border-left: 1px solid rgb(165, 165, 165);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.menu .menuItems:hover {
+  background: rgba(255, 255, 255, .7);
+}
+
+.menu a {
+text-decoration: none;
+}
+.menu .menuItems i {
+  font-size: 1.8rem;
+}
+.fa-whatsapp {
+  color: #25d366;
+}
+.fa-instagram {
+  color: #c32aa3;
+}
+.fa-facebook {
+  color: #273c75;
+}
+.fa-twitter {
+  color: #1da1f2;
+}
