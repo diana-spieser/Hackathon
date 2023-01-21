@@ -1,11 +1,13 @@
-html, body {
+html,
+body {
 
-  background-image: url('background.webp');
+  background-image: url('../images/background.webp');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
 }
+
 .navbar-ai {
   padding-right: 24px;
   height: 80px;
@@ -28,36 +30,49 @@ html, body {
   color: white;
   text-decoration: none;
 }
+
 .avatar {
   vertical-align: middle;
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
+
+header {
+  color: white;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.titre_p {
+  margin-left: 270px;
+}
+
 #textarea_title {
-    width: 90%;
-    resize: none;
-    height: 40px
+  width: 90%;
+  resize: none;
+  height: 40px
 }
 
 #textarea_content {
-    width: 90%;
-    height: 150px;
-    resize: none;
+  width: 90%;
+  height: 150px;
+  resize: none;
 }
 
 div#body_create {
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
 #tag_input {
-  width: 40%;
+  width: 55%;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
+  margin-right: 123px;
 }
 
 .create-bloc {
@@ -65,11 +80,11 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80%;
-  margin-top: 15px ;
+  width: 50%;
+  margin-top: 15px;
   box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
   border-radius: 10px;
-  margin-left: 150px;
+  margin-left: 415px;
   margin-bottom: 100px;
   position: relative;
   padding: 30px
