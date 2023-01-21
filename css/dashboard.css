@@ -1,0 +1,22 @@
+div.event {
+    border: orange 1px solid;
+    margin: 10px;
+    text-align: right;
+    /* padding: 10px; */
+}
+
+div.items {
+    border: black 1px solid;
+    display: inline-block;
+    margin: 7px;
+    padding: 7px;
+}
+
+div.title {
+    display: inline-block;
+    text-align: center;
+    border: red 1px solid;
+    margin: 7px;
+    padding: 7px;
+}
+
