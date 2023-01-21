@@ -14,7 +14,7 @@ function randomMark() {
     return randomChoice(['fa-regular fa-circle-xmark','fa-regular fa-circle-check'])
 }
 
-// When the page is ready, append 8 new events to the list_event
+// When the page is ready, append 30 new events to the list_event
 // event : 
 {/* <div class="event">
                 <div class="title">Cinéma</div>
