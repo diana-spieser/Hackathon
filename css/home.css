@@ -1,6 +1,6 @@
 html, body{
   height:100%;
-  font: 22px "QuicksandLight";
+  font: 22px "Nunito";
   background-color: rgba(81, 79, 79, 0.949);
 }
 
@@ -68,24 +68,6 @@ html, body{
   margin-top: 10px;
 }
 
-.banner {
-  padding: 184px 0;
-  text-align: center;
-  background-image: url(../images/background.jpg);
-  background-position: center;
-  color: white;
-}
-
- @font-face {
-   font-family: "Quicksand";
-   src: url('quicksand/Quicksand-BoldItalic.otf');
- }
-
- @font-face {
-   font-family: "QuicksandLight";
-   src: url('quicksand/Quicksand-LightItalic.otf');
- }
-
 .event_day .card{
   margin-top: 10px;
 }
@@ -106,26 +88,24 @@ hr {
 .responsive-text {
   overflow-wrap: anywhere;
 }
-footer{
-  margin-top: 25px;
-}
+
 
 /* logo */
-
+/*
 .logo{
   background-image: url('../images/all_in_logo.svg');
   height: 60px;
   width: 60px;
-}
+} */
 
 /* logo */
-nav img{
+/* nav img{
   width: 40px;
   border-radius: 50%;
-}
-
+} */
+/*
 .card_column{
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
-}
+} */
