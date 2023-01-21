@@ -1,6 +1,6 @@
-body{
+html, body{
   font-family: "Nunito";
-  height:100vh;
+  height:100%;
   font-size: 22px;
   background: linear-gradient(360deg, rgb(0, 0, 0), rgb(16, 4, 59) 100%);
 }
@@ -54,6 +54,9 @@ body{
   display: flex;
   align-items: center;
   flex-direction: row;
+  width: 100%;
+  background-size: cover;
+  background-image: url(../images/background.webp);
 }
 .mainbox {
   grid-template-areas: "left main right";
