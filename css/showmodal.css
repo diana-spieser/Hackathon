@@ -1,27 +1,56 @@
-body {
-  background-color: white;
+html, body {
+
+  background-image: url('background.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.navbar-ai {
+  padding-right: 24px;
+  height: 80px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
-.show-container {
-  background-color: white;
+.navlinks {
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+  font-size: 18px;
+  font-weight: 100;
 }
 
+.navlinks a {
+  color: white;
+  text-decoration: none;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
 .show-bloc {
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80%;
-  margin-top: 15px ;
+  width: 65%;
+  margin-top: 30px ;
   box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
   border-radius: 10px;
-  margin-left: 150px;
+  margin-left: 400px;
   margin-bottom: 100px;
   position: relative;
 }
 .show-h2 {
   text-align: center;
   padding-top: 15px;
+  color: white;
 }
 
 .show-img {

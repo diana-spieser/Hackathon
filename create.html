@@ -25,7 +25,14 @@
 </head>
 
 <body>
-  <nav id="navbar">
+  <nav class="navbar-ai" data-bs-theme="dark">
+    <div class="navlinks">
+      <a href="#">Accueil</a>
+      <a href="#">Liste des Events</a>
+      <a href="#">Créer un Event</a>
+      <a href="#">Dashboard</a>
+    </div>
+    <div><img src="images/avatar.webp" alt="Avatar" class="avatar"></div>
   </nav>
     <div id="body_create">
     <header>
@@ -34,6 +41,7 @@
           obtient de votes de la part des autres utilisateurs, plus il y aura de chance qu'elle soit choisie par les orgaisations et associations.
         </p>
     </header>
+    <div class="create-bloc">
     <div class="create_form">
     <textarea id="textarea_title" placeholder="Titre de l'évenement"></textarea> <br><br>
     <textarea id="textarea_content" placeholder="Description détaillée de votre idée"></textarea> <br><br>
@@ -43,19 +51,19 @@
     <p>Accessibilité et besoins spécifiques pour cet évenement :</p>
     <div class="form-check form-check-inline">
       <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-      <label class="form-check-label" for="inlineCheckbox1"><i class="fa-brands fa-accessible-icon"></i></label>
+      <label class="form-check-label" for="inlineCheckbox1"><i class="fa-brands fa-accessible-icon" data-toggle="tooltip" data-placement="top" title="Personnes à Mobilité Réduite"></i></label>
     </div>
     <div class="form-check form-check-inline">
       <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-      <label class="form-check-label" for="inlineCheckbox2"><i class="fa-solid fa-person-walking-with-cane"></i></label>
+      <label class="form-check-label" for="inlineCheckbox2"><i class="fa-solid fa-person-walking-with-cane" data-toggle="tooltip" data-placement="top" title="Personnes aveugles et malvoyantes"></i></label>
     </div>
     <div class="form-check form-check-inline">
       <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-      <label class="form-check-label" for="inlineCheckbox3"><i class="fa-solid fa-audio-description"></i></label>
+      <label class="form-check-label" for="inlineCheckbox3"><i class="fa-solid fa-audio-description" data-toggle="tooltip" data-placement="top" title="Audio-description"></i></label>
     </div>
     <div class="form-check form-check-inline">
-      <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option1">
-      <label class="form-check-label" for="inlineCheckbox1"><i class="fa-solid fa-ear-deaf"></i></label>
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+      <label class="form-check-label" for="inlineCheckbox1"><i class="fa-solid fa-ear-deaf" data-toggle="tooltip" data-placement="top" title="Personnes sourdes et malentendantes"></i></label>
     </div><br><br>
 
     <!-- tag-->
@@ -67,6 +75,7 @@
         </div>
       </div>
     </div>
+  </div>
 
 </body>
 
