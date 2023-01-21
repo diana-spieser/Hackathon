@@ -4,16 +4,10 @@ html, body{
   background-color: rgba(81, 79, 79, 0.949);
 }
 
-.home_search{
-  height: 25px;
-  min-width:40%;
-}
 
 .event_present_future{
 
-  min-height: 200px;
-  min-width: 40%;
-  width: 60%;
+
   background-color: rgba(245, 245, 220, 0.703);
   grid-template-columns: 1fr 1fr;
   grid-gap: 15px;
@@ -23,21 +17,27 @@ html, body{
 .event_day{
   min-height: 200px;
   background-color: rgba(157, 157, 164, 0.569);
-  width: 20%;
+
   grid-gap: 15px;
 }
 
 .home_search, .event_present_future, .event_day{
   margin-top: 25px;
-  border-radius: 25px;
+  border-radius: 5px;
   padding: 15px;
+}
+
+.home_search{
+  height: 25px;
+  min-width:40%;
+  border-radius: 25px;
 }
 
 .card {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/dinner.jpg);
   background-size: cover;
   background-position: center;
-  height: 200px;
+  height: 212px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,7 +68,7 @@ html, body{
 }
 
 .banner {
-  padding: 150px 0;
+  padding: 184px 0;
   text-align: center;
   background-image: url(../images/background.jpg);
   background-position: center;
@@ -87,4 +87,44 @@ html, body{
 
 .event_day .card{
   margin-top: 10px;
+}
+
+.element{
+  min-height:100px;
+}
+
+.color-white{
+  color: white;
+}
+
+/* footer */
+hr {
+  background-color: white;
+}
+
+.responsive-text {
+  overflow-wrap: anywhere;
+}
+footer{
+  margin-top: 25px;
+}
+
+/* logo */
+
+.logo{
+  background-image: url('../images/all_in_logo.svg');
+  height: 60px;
+  width: 60px;
+}
+
+/* logo */
+nav img{
+  width: 40px;
+  border-radius: 50%;
+}
+
+.card_column{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
 }

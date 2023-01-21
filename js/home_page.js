@@ -7,6 +7,6 @@ var options = {
   loop:true
 };
 
-var typed = new Typed('.element', options);
+new Typed('.element', options);
 console.log('passed')
 });

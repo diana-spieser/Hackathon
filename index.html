@@ -21,6 +21,11 @@
   <title>AllIn</title>
 </head>
 <body>
+<nav class="navbar px-4 bg-dark justify-content-between" data-bs-theme="dark">
+  <div class="color-white">&nbsp</div>
+  <div class="color-white logo"></div>
+  <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" />
+</nav>
 <div class="banner ">
   <h1 class="element"></h1>
 </div>
@@ -28,21 +33,67 @@
   <div class="d-flex justify-content-center">
     <input class="home_search" type="text" placeholder="Entre un mot clé ou une ville...">
   </div>
-  <div class="main d-flex justify-content-around">
-    <div class="event_present_future d-grid">
-      <div class="card">titre 1</div>
-      <div class="card">titre 2</div>
-      <div class="card">titre 3</div>
-      <div class="card">titre 4</div>
+  <div class="row">
+    <div class="col-9">
+      <div>A venir</div>
+      <div class="event_present_future d-grid">
+        <div class="card">titre 1</div>
+        <div class="card">titre 2</div>
+        <div class="card">titre 3</div>
+        <div class="card">titre 4</div>
+      </div>
     </div>
-    <div class="event_day flex-shrink-1">
-      <div class="card_day">titre 1</div>
-      <div class="card_day">titre 2</div>
-      <div class="card_day">titre 3</div>
-      <div class="card_day">titre 4</div>
+    <div class="col-3">
+      <div>A venir</div>
+      <div class="event_day ">
+        <div class="card_day">titre 1</div>
+        <div class="card_day">titre 2</div>
+        <div class="card_day">titre 3</div>
+        <div class="card_day">titre 4</div>
+      </div>
     </div>
   </div>
+</div>
+<footer class="text-center text-white mt-auto" style="background-color: #292425;">
+<!-- Copyright  and Social network-->
+<div class="text-center text-light p-3" style="background-color: rgba(41, 36, 37, 0.9);">
+  <div class="d-flex justify-content-around">
+    <div>
+      <h4>Nous sommes</h4>
+      <p>AllIn</p>
+      <p>21, avenue Thiers</p>
+      <p>06000, Nice, France</p>
+    </div>
+    <div class="mt-4 responsive-text">
+      <h2>contact@allin.fr</h2>
+      <h3>+33 4 95 16 42 33</h3>
+    </div>
+  </div>
+  <hr>
+  © 2022 Copyright:
+  <a class="text-dark" href="">AllIn</a>
+  <!-- Facebook -->
+  <a class="btn btn-link btn-floating btn-lg text-light m-1" href="#!" role="button" data-mdb-ripple-color="dark"><i
+      class="fab fa-facebook-f"></i></a>
+
+  <!-- Twitter -->
+  <a class="btn btn-link btn-floating btn-lg text-light m-1" href="#!" role="button" data-mdb-ripple-color="dark"><i
+      class="fab fa-twitter"></i></a>
+
+  <!-- Google -->
+  <a class="btn btn-link btn-floating btn-lg text-light m-1" href="#!" role="button" data-mdb-ripple-color="dark"><i
+      class="fab fa-google"></i></a>
+
+  <!-- Instagram -->
+  <a class="btn btn-link btn-floating btn-lg text-light m-1" href="#!" role="button" data-mdb-ripple-color="dark"><i
+      class="fab fa-instagram"></i></a>
+
+  <!-- Linkedin -->
+  <a class="btn btn-link btn-floating btn-lg text-light m-1" href="#!" role="button" data-mdb-ripple-color="dark"><i
+      class="fab fa-linkedin"></i></a>
 
 </div>
+<!-- Copyright -->
+</footer>
 </body>
 </html>
