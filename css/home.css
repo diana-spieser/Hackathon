@@ -1,0 +1,90 @@
+html, body{
+  height:100%;
+  font: 22px "QuicksandLight";
+  background-color: rgba(81, 79, 79, 0.949);
+}
+
+.home_search{
+  height: 25px;
+  min-width:40%;
+}
+
+.event_present_future{
+
+  min-height: 200px;
+  min-width: 40%;
+  width: 60%;
+  background-color: rgba(245, 245, 220, 0.703);
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+
+}
+
+.event_day{
+  min-height: 200px;
+  background-color: rgba(157, 157, 164, 0.569);
+  width: 20%;
+  grid-gap: 15px;
+}
+
+.home_search, .event_present_future, .event_day{
+  margin-top: 25px;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/dinner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.card_day {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/dinner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  grid-gap: 15px;
+  margin-top: 10px;
+}
+
+.banner {
+  padding: 150px 0;
+  text-align: center;
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  color: white;
+}
+
+ @font-face {
+   font-family: "Quicksand";
+   src: url('quicksand/Quicksand-BoldItalic.otf');
+ }
+
+ @font-face {
+   font-family: "QuicksandLight";
+   src: url('quicksand/Quicksand-LightItalic.otf');
+ }
+
+.event_day .card{
+  margin-top: 10px;
+}
