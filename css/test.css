@@ -31,7 +31,9 @@ body {
   font-size: 18px;
   font-weight: 100;
 }
-
+.text-purple{
+  color: rgb(82, 56, 236);
+}
 .navlinks a {
   color: white;
   text-decoration: none;
