@@ -1,0 +1,110 @@
+<!doctype html>
+<head>
+  <link rel="stylesheet" href="showmodal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="jquery.js"></script>
+</head>
+<body>
+
+
+<div class="show-container">
+
+  <div class= "show-h2">
+    <h2><b>Cinéma en plein air avec audio-description</b></h2>
+  </div>
+
+  <div class="show-bloc">
+    <div class= "show-img">
+      <img src="cinema.jpg" alt="Cinéma" length=400px width="400px">
+    </div>
+    <div class= "show-infos">
+      <h5>Venez participer à une séance de cinéma en plein air avec audio audio-description pour les personnes aveugles ou malvoyantes. Chiens guides d'aveugle autorisés sur le site. Partagez avec vos proches...*à écrire*</h5><br>
+      <p class='show-price'> <i class="fa-solid fa-location-dot"></i> Nice</p>
+      <div class="tags">
+        <i class="fa-brands fa-accessible-icon fa-2x"></i>
+        <i class="fa-solid fa-person-walking-with-cane fa-2x"></i>
+        <i class="fa-solid fa-audio-description fa-2x"></i>
+      </div> <br>
+
+<!-- Button trigger modal j'aime-->
+<button type="button" class="btn btn-primary show-btn-popup" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Je suis interessé.e
+</button>
+
+<!-- Button partage -->
+<div class="box">
+  <input type="checkbox"id="checkbox" />
+  <div class="menu">
+    <a href="#">
+      <div class="menuItems">
+        <i class="fab fa-whatsapp"></i>
+      </div>
+    </a>
+    <a href="#">
+      <div class="menuItems">
+        <i class="fab fa-instagram"></i>
+      </div>
+    </a>
+    <a href="#">
+      <div class="menuItems">
+        <i class="fab fa-facebook"></i>
+      </div>
+    </a>
+    <a href="#">
+      <div class="menuItems">
+        <i class="fab fa-twitter"></i>
+      </div>
+    </a>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content" style="background-color: white">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Voulez-vous masquer certains de vos badges pour cet event?</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <!-- Affichage badges de mon choix -->
+        <div class='form'>
+          <div class="row justify-content-center">
+            <div class="col-12 col-sm-4" class='bloc'>
+              <input type="checkbox" id="LGBTQIA+" name="LGBTQIA+" checked>
+              <label for="LGBTQIA+">LGBTQIA+</label> <br>
+              <input type="checkbox" id="senior" name="senior" checked>
+              <label for="senior">Senior</label> <br>
+              <input type="checkbox" id="PMR" name="PMR">
+              <label for="PMR">PMR</label> <br>
+              <input type="checkbox" id="Aveugles et Malvoyants" name="Aveugles et Malvoyants">
+              <label for="Aveugles et Malvoyants">Aveugles et Malvoyants</label> <br>
+                <div>
+                  <a class="btn btn-ghost">Valider</a>
+                </div>
+            </div>
+        </div>
+      <!-- Fin du contenu formulaire -->
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+      <a class="btn btn-ghost">Retour</a>
+  </div>
+</div>
+
+</body>
+</html>
