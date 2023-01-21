@@ -1,29 +1,8 @@
-html, body{
+body{
   font-family: "Nunito";
-  height:100%;
+  height:100vh;
   font-size: 22px;
-  background: linear-gradient(90deg, rgb(0, 0, 0), rgb(16, 4, 59) 100%);}
-
-.event_present_future{
-  background-color: rgba(245, 245, 220, 0.703);
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 15px;
-}
-.event_day{
-  min-height: 200px;
-  background-color: rgba(157, 157, 164, 0.569);
-  grid-gap: 15px;
-}
-.home_search, .event_present_future, .event_day{
-  margin-top: 25px;
-  border-radius: 5px;
-  padding: 15px;
-}
-.home_search{
-  width: 380px;
-  height: 25px;
-  min-width:40%;
-  border-radius: 25px;
+  background: linear-gradient(360deg, rgb(0, 0, 0), rgb(16, 4, 59) 100%);
 }
 .navbar-ai{
   padding-right: 24px;
@@ -45,89 +24,70 @@ html, body{
   color: white;
   text-decoration: none;
 }
-.card {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/dinner.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 212px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-}
-.card_day {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/dinner.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 18px;
-  font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  grid-gap: 15px;
-  margin-top: 10px;
-}
 .banner {
   color: white;
-  padding: 184px 0;
   text-align: center;
   background-position: center;
   background-image: url(../images/banner_hp.webp);
   width: 100%;
   background-size: cover;
   object-fit: cover;
-  height: 90px;
+  height: 300px;
 }
-@font-face {
-  font-family: "Nunito";
-  /* src: url('quicksand/Quicksand-BoldItalic.otf'); */
-}
-@font-face {
-  font-family: "Nunito";
-  /* src: url('quicksand/Quicksand-LightItalic.otf'); */
-}
-.event_day .card{
-  margin-top: 10px;
-}
-.element{
-  min-height:100px;
-}
-.color-white{
-  color: white;
-}
-/* footer */
-hr {
-  background-color: white;
-}
-.responsive-text {
-  overflow-wrap: anywhere;
-}
-footer{
-  margin-top: 25px;
-}
-/* logo */
-.logo{
-  background-image: url('../images/all_in_logo.svg');
-  height: 60px;
-  width: 60px;
-}
-/* logo */
 .avatar{
   width: 60px;
   border-radius: 50%;
 }
-.card_column{
+.home_search{
+  z-index: 5;
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  text-align: center;
+  width: 448px;
+  height: 48px;
+  /* min-width: 40%; */
+  border-radius: 12px;
+  padding-left: 24px;
+}
+.homebox {
   display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
+  align-items: center;
+  flex-direction: row;
+}
+.mainbox {
+  grid-template-areas: "left main right";
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+.col-left {
+  grid-area: left;
+}
+.col-left img {
+  background-size: cover;
+  object-fit: cover;
+  width: 20vw;
+}
+.eventbox {
+  grid-area: main;
+  padding: 40px;
+  background-size: cover;
+  object-fit: cover;
+}
+.eventbox img {
+  background-size: cover;
+  object-fit: cover;
+  width: 50vw;
+}
+.corner-orange {
+  grid-area: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.corner-orange img {
+  background-size: cover;
+  object-fit: cover;
+  width: 14vw;
 }

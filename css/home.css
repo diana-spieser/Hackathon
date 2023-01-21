@@ -1,50 +1,38 @@
 html, body{
-  font-family: "Nunito";
   height:100%;
-  font-size: 22px;
-  background: linear-gradient(90deg, rgb(0, 0, 0), rgb(16, 4, 59) 100%);}
+  font: 22px "QuicksandLight";
+  background-color: rgba(81, 79, 79, 0.949);
+}
+
 
 .event_present_future{
+
+
   background-color: rgba(245, 245, 220, 0.703);
   grid-template-columns: 1fr 1fr;
   grid-gap: 15px;
+
 }
+
 .event_day{
   min-height: 200px;
   background-color: rgba(157, 157, 164, 0.569);
+
   grid-gap: 15px;
 }
+
 .home_search, .event_present_future, .event_day{
   margin-top: 25px;
   border-radius: 5px;
   padding: 15px;
 }
+
 .home_search{
-  width: 380px;
   height: 25px;
   min-width:40%;
   border-radius: 25px;
 }
-.navbar-ai{
-  padding-right: 24px;
-  height: 80px;
-  display: flex;
-  gap: 24px;
-  align-items: center;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-.navlinks{
-  display: flex;
-  gap: 24px;
-  flex-direction: row;
-  font-size: 18px;
-  font-weight: 100;
-}
-.navlinks a{
-  color: white;
-  text-decoration: none;
-}
+
 .card {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/dinner.jpg);
   background-size: cover;
@@ -60,6 +48,7 @@ html, body{
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
+
 .card_day {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/dinner.jpg);
   background-size: cover;
@@ -77,55 +66,63 @@ html, body{
   grid-gap: 15px;
   margin-top: 10px;
 }
+
 .banner {
-  color: white;
   padding: 184px 0;
   text-align: center;
+  background-image: url(../images/background.jpg);
   background-position: center;
-  background-image: url(../images/banner_hp.webp);
-  width: 100%;
-  background-size: cover;
-  object-fit: cover;
-  height: 90px;
+  color: white;
 }
-@font-face {
-  font-family: "Nunito";
-  /* src: url('quicksand/Quicksand-BoldItalic.otf'); */
-}
-@font-face {
-  font-family: "Nunito";
-  /* src: url('quicksand/Quicksand-LightItalic.otf'); */
-}
+
+ @font-face {
+   font-family: "Quicksand";
+   src: url('quicksand/Quicksand-BoldItalic.otf');
+ }
+
+ @font-face {
+   font-family: "QuicksandLight";
+   src: url('quicksand/Quicksand-LightItalic.otf');
+ }
+
 .event_day .card{
   margin-top: 10px;
 }
+
 .element{
   min-height:100px;
 }
+
 .color-white{
   color: white;
 }
+
 /* footer */
 hr {
   background-color: white;
 }
+
 .responsive-text {
   overflow-wrap: anywhere;
 }
 footer{
   margin-top: 25px;
 }
+
 /* logo */
+
 .logo{
   background-image: url('../images/all_in_logo.svg');
   height: 60px;
   width: 60px;
 }
+
 /* logo */
-.avatar{
-  width: 60px;
+nav img{
+  width: 40px;
   border-radius: 50%;
 }
+
 .card_column{
   display: flex;
   flex-direction: column;
