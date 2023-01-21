@@ -3,7 +3,6 @@ div.event {
     margin: 10px;
     text-align: right;
     display: flex;
-    /* padding: 10px; */
 }
 
 div.items {
@@ -23,10 +22,7 @@ div.title {
 
 a#bigtitle {
     display: flex;
-    /* text-align: center; */
     /* border: purple 1px solid; */
-    /* margin: 7px; */
-    /* padding: 7px; */
     justify-content: left;
     margin-right: auto;
     font-size: 1.5em;
