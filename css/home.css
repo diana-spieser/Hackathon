@@ -16,8 +16,9 @@ html, body{
 
 .event_day{
   min-height: 200px;
-  background-color: rgba(157, 157, 164, 0.569);
-
+  border-left: 1px solid transparent;
+  border-image: linear-gradient(0.5turn, rgba(255, 255, 255), rgba(255, 255, 255), rgba(255, 255, 255, 0));
+  border-image-slice: 1;
   grid-gap: 15px;
 }
 
