@@ -1,11 +1,11 @@
-$( document ).ready(function() {
+$(document).ready(function () {
 
-var options = {
-  strings: ['All In'],
-  typeSpeed: 250,
-  loop:false,
-};
+  var options = {
+    strings: ['All In'],
+    typeSpeed: 250,
+    loop: false,
+  };
 
-new Typed('.element', options);
-console.log('passed')
+  new Typed('.element', options);
+  console.log('passed')
 });

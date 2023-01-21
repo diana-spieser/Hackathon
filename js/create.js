@@ -17,6 +17,10 @@ $(document).ready(function() {
     var title = $('#textarea_title').val();
     // Get the location
     var location = $('#textarea_content').val();
+    if (title == '') {
+        alert('Please enter a title');
+        return;
+    }
     // Redirect to the create page with the title and location
     window.location.href = 'dashboard.html?title=' + title + '&location=' + location;
 });
