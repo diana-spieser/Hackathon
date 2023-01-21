@@ -29,6 +29,7 @@ a#bigtitle {
     /* padding: 7px; */
     justify-content: left;
     margin-right: auto;
+    font-size: 1.5em;
 }
 
 a {
