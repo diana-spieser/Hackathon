@@ -34,6 +34,17 @@ html, body {
   height: 50px;
   border-radius: 50%;
 }
+
+header {
+  color: white;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.titre_p {
+  margin-left: 270px;
+}
+
 #textarea_title {
     width: 90%;
     resize: none;
@@ -53,11 +64,12 @@ div#body_create {
 }
 
 #tag_input {
-  width: 40%;
+  width: 55%;
 }
 
 h1 {
     text-align: center;
+    margin-right: 123px;
 }
 
 .create-bloc {
@@ -65,11 +77,11 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80%;
+  width: 50%;
   margin-top: 15px ;
   box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
   border-radius: 10px;
-  margin-left: 150px;
+  margin-left: 415px;
   margin-bottom: 100px;
   position: relative;
   padding: 30px
