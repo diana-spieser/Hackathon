@@ -1,12 +1,11 @@
-
 $( document ).ready(function() {
 
 var options = {
-  strings: ['Include me !!!'],
-  typeSpeed: 70,
-  loop:true
+  strings: ['All In'],
+  typeSpeed: 250,
+  loop:false,
 };
 
-var typed = new Typed('.element', options);
+new Typed('.element', options);
 console.log('passed')
 });

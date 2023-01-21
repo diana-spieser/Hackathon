@@ -21,7 +21,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="js/jquery.js"></script>
-    <script src="js/home_page.js"></script>
+    <script src="js/dashboard.js"></script>
 </head>
 
 <body>
@@ -32,47 +32,22 @@
         <nav id="navbar">
         </nav>
         Mes events:
-        <div class="event">
-            <div class="title">Cinéma</div>
-            <div class="items">Nice <i class="fa-solid fa-location-dot"></i></div>
-            <div class="items"><a href="create.html?title=Cinéma&location=Antibes"><i
-                        class="fa-regular fa-clone"></i></a></div>
-            <div class="items"><i class="fa-regular fa-circle-xmark"></i></div>
-        </div>
-        <div class="event">
-            <div class="me-a">Cinéma</div>
-            <div class="p-2">Antibes <i class="fa-solid fa-location-dot"></i></div>
-            <div class="p-2"><a href="create.html?title=Cinéma&location=Antibes"><i class="fa-regular fa-clone"></i></a>
+        <div id="list_event">
+            <div class="event">
+                <a id="bigtitle"><div class="title">Cinéma</div></a>
+                <div class="items">Nice <i class="fa-solid fa-location-dot"></i></div>
+                <div class="items"><a href="create.html?title=Cinéma&location=Antibes"><i
+                            class="fa-regular fa-clone"></i></a></div>
+                <div class="items"><i class="fa-regular fa-circle-xmark"></i></div>
             </div>
-            <div class=""><i class="fa-regular fa-circle-check"></i></div>
-        </div>
-        <div class="event">
-            <div class="title">Concert</div>
-            <div class="items">Cannes <i class="fa-solid fa-location-dot"></i></div>
-            <div class="items"><a href="create.html?title=Cinéma&location=Antibes"><i
-                        class="fa-regular fa-clone"></i></a></div>
-            <div class="items"><i class="fa-regular fa-circle-xmark"></i></div>
-        </div>
-        <div class="event">
-            <div class="title">Cinéma</div>
-            <div class="items">Nice <i class="fa-solid fa-location-dot"></i></div>
-            <div class="items"><a href="create.html?title=Cinéma&location=Antibes"><i
-                        class="fa-regular fa-clone"></i></a></div>
-            <div class="items"><i class="fa-regular fa-circle-check"></i></div>
-        </div>
-        <div class="event">
-            <div class="title">Concours Escalade</div>
-            <div class="items">Grenoble <i class="fa-solid fa-location-dot"></i></div>
-            <div class="items"><a href="create.html?title=Cinéma&location=Antibes"><i
-                        class="fa-regular fa-clone"></i></a></div>
-            <div class="items"><i class="fa-regular fa-circle-check"></i></div>
-        </div>
-        <div class="event">
-            <div class="title">Pluie</div>
-            <div class="items">Bretz <i class="fa-solid fa-location-dot"></i></div>
-            <div class="items"><a href="create.html?title=Cinéma&location=Antibes"><i
-                        class="fa-regular fa-clone"></i></a></div>
-            <div class="items"><i class="fa-regular fa-circle-xmark"></i></div>
+            <div class="event">
+                <a id="bigtitle"><div class="title">Cinéma</div></a>
+                <div class="items">Antibes <i class="fa-solid fa-location-dot"></i></div>
+                <div class="items"><a href="create.html?title=Cinéma&location=Antibes"><i
+                            class="fa-regular fa-clone"></i></a>
+                </div>
+                <div class="items"><i class="fa-regular fa-circle-check"></i></div>
+            </div>
         </div>
     </div>
 </body>
