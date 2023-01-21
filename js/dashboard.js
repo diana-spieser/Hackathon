@@ -36,4 +36,11 @@ $(document).ready(function() {
         lloc = randomLocation();
         list_event.append('<div class="event"><a id="bigtitle"><div class="title">' + levent + '</div></a><div class="items">' + lloc + ' <i class="fa-solid fa-location-dot"></i></div><div class="items"><a href="create.html?title=' + levent + '&location=' + lloc + '"><i class="fa-regular fa-clone"></i></a></div><div class="items"><i class="'+ randomMark() +'"></i></div></div>');
     }
+
+    $("#event").click(function() {
+        var urlParams = new URLSearchParams(window.location.search);
+        var title = urlParams.get('title');
+        var location = urlParams.get('location');
+        if (title != null && location != null) {
+            list_event.append('<div class="event"><a id="bigtitle"><div class="title">' + title + '</div></a><div class="items">' + location + ' <i class="fa-solid fa-location-dot"></i></div><div class="items"><a href="create.html?title=' + title + '&location=' + location + '"><i class="fa-regular
 });
