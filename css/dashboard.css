@@ -1,12 +1,13 @@
 div.event {
     border: orange 1px solid;
-    margin: 10px;
+    margin: 10px 20px;
     text-align: right;
-    /* padding: 10px; */
+    display: flex;
+    padding: 0px 37px;
 }
 
 div.items {
-    border: black 1px solid;
+    /* border: black 1px solid; */
     display: inline-block;
     margin: 7px;
     padding: 7px;
@@ -15,7 +16,30 @@ div.items {
 div.title {
     display: inline-block;
     text-align: center;
-    border: red 1px solid;
+    /* border: red 1px solid; */
     margin: 7px;
     padding: 7px;
+}
+
+a#bigtitle {
+    display: flex;
+    /* border: purple 1px solid; */
+    justify-content: left;
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+a {
+    color: black;
+}
+
+
+h1 {
+    margin: 10px 20px;
+    padding: 0px 37px;
+}
+
+p {
+    margin: 10px 25px;
+    padding: 0px 37px;
 }

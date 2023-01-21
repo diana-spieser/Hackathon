@@ -91,23 +91,6 @@ margin-left: 40px;
   color: #CC96E1;
 }
 
-.resa-price {
-  display: flex;
-  justify-content: space-around;
-  color: #CC96E1;
-  font-size: larger;
-  margin-top: 15px;
-  align-items: center;
-}
-
-.details-price-resa {
-  display: flex;
-  justify-content: space-between;
-  margin-right: 100px;
-  font-size: large;
-  align-items: center;
-}
-
 .show-btn-popup {
   border-radius: 50px;
   color: #29202d;
