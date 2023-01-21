@@ -1,0 +1,13 @@
+div#event {
+    border: orange 1px solid;
+    margin: 10px;
+    text-align: right;
+    padding: 10px;
+}
+
+div :not(#event) {
+    /* border: red 1px solid; */
+    margin: 10px;
+    display: inline;
+    padding: 10px;
+}
