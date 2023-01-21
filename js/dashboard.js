@@ -28,6 +28,6 @@ $(document).ready(function() {
     for (var i = 0; i < 30; i++) {
         levent = randomEvent();
         lloc = randomLocation();
-        list_event.append('<div class="event"><div class="title">' + levent + '</div><div class="items">' + lloc + ' <i class="fa-solid fa-location-dot"></i></div><div class="items"><a href="create.html?title=' + levent + '&location=' + lloc + '"><i class="fa-regular fa-clone"></i></a></div><div class="items"><i class="'+ randomMark() +'"></i></div></div>');
+        list_event.append('<div class="event"><a id="bigtitle"><div class="title">' + levent + '</div></a><div class="items">' + lloc + ' <i class="fa-solid fa-location-dot"></i></div><div class="items"><a href="create.html?title=' + levent + '&location=' + lloc + '"><i class="fa-regular fa-clone"></i></a></div><div class="items"><i class="'+ randomMark() +'"></i></div></div>');
     }
 });

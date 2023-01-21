@@ -2,11 +2,12 @@ div.event {
     border: orange 1px solid;
     margin: 10px;
     text-align: right;
+    display: flex;
     /* padding: 10px; */
 }
 
 div.items {
-    border: black 1px solid;
+    /* border: black 1px solid; */
     display: inline-block;
     margin: 7px;
     padding: 7px;
@@ -15,7 +16,21 @@ div.items {
 div.title {
     display: inline-block;
     text-align: center;
-    border: red 1px solid;
+    /* border: red 1px solid; */
     margin: 7px;
     padding: 7px;
+}
+
+a#bigtitle {
+    display: flex;
+    /* text-align: center; */
+    /* border: purple 1px solid; */
+    /* margin: 7px; */
+    /* padding: 7px; */
+    justify-content: left;
+    margin-right: auto;
+}
+
+a {
+    color: black;
 }
