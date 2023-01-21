@@ -117,6 +117,10 @@ body {
 
 .container-home{
   margin-left: 24%;
+
+}
+.container-home a{
+    text-decoration: none;
 }
 
 .title-pink{
