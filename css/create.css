@@ -1,6 +1,7 @@
 #textarea_title {
     width: 90%;
     resize: none;
+    height: 40px
 }
 
 #textarea_content {
@@ -16,9 +17,13 @@ div#body_create {
 }
 
 #tag_input {
-  width: 50%;
+  width: 40%;
 }
 
 h1 {
     text-align: center;
+}
+
+.create_form {
+
 }
