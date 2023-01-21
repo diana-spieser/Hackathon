@@ -1,10 +1,20 @@
-html, body{
+html,
+body {
   font-family: "Nunito";
-  height:100%;
+  height: 100%;
   font-size: 22px;
-  background: linear-gradient(360deg, rgb(0, 0, 0), rgb(16, 4, 59) 100%);
+  /* background: linear-gradient(360deg, rgb(0, 0, 0), rgb(16, 4, 59) 100%); */
 }
-.navbar-ai{
+
+.homebox {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/backtest.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-ai {
   padding-right: 24px;
   height: 80px;
   display: flex;
@@ -13,18 +23,21 @@ html, body{
   flex-direction: row;
   justify-content: flex-end;
 }
-.navlinks{
+
+.navlinks {
   display: flex;
   gap: 24px;
   flex-direction: row;
   font-size: 18px;
   font-weight: 100;
 }
-.navlinks a{
+
+.navlinks a {
   color: white;
   text-decoration: none;
 }
-.banner {
+
+/* .banner {
   color: white;
   text-align: center;
   background-position: center;
@@ -33,12 +46,14 @@ html, body{
   background-size: cover;
   object-fit: cover;
   height: 300px;
-}
-.avatar{
+} */
+
+/* .avatar {
   width: 60px;
   border-radius: 50%;
-}
-.home_search{
+} */
+
+/* .home_search {
   z-index: 5;
   position: absolute;
   right: 40px;
@@ -46,53 +61,52 @@ html, body{
   text-align: center;
   width: 448px;
   height: 48px;
-  /* min-width: 40%; */
   border-radius: 12px;
   padding-left: 24px;
-}
-.homebox {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  height: auto;
-    width: auto;
-    max-width: 100%;
-    max-height: 100%;
-  background-image: url(../images/background.webp);
-}
-.mainbox {
+} */
+ /* img {
+   width: 100%;
+   height: 100%;
+ } */
+/* .mainbox {
   grid-template-areas: "left main right";
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
 }
+
 .col-left {
   grid-area: left;
 }
+
 .col-left img {
   background-size: cover;
   object-fit: cover;
   width: 20vw;
 }
+
 .eventbox {
   grid-area: main;
   padding: 40px;
   background-size: cover;
   object-fit: cover;
 }
+
 .eventbox img {
   background-size: cover;
   object-fit: cover;
   width: 50vw;
 }
+
 .corner-orange {
   grid-area: right;
   position: absolute;
   bottom: 0;
   right: 0;
 }
+
 .corner-orange img {
   background-size: cover;
   object-fit: cover;
   width: 14vw;
-}
+} */
