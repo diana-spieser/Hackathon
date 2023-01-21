@@ -19,11 +19,3 @@ div.title {
     margin: 7px;
     padding: 7px;
 }
-
-div.me-auto {
-    /* display: inline-block; */
-    text-align: left;
-    border: red 1px solid;
-    margin: 7px;
-    padding: 7px;
-}
